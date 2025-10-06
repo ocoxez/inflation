@@ -23,7 +23,7 @@ const inflationRates = {
     2021: 8.4,
     2022: 14.5,
     2023: 6.4,
-    2024: 4.0,
+    2024: 9.5,
 };
 
 document.getElementById('calculate').addEventListener('click', () => {
@@ -60,4 +60,5 @@ function togle(){
 
     yearsVisible = !yearsVisible;
     document.getElementById('toggleYears').textContent = yearsVisible ? 'Скрыть годы' : 'Показать все годы';
+
 }
